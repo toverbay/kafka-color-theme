@@ -1,0 +1,204 @@
+{
+	"name": "Kafka",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#151820",
+		"editor.foreground": "#abb2bf",
+		"editor.selectionBackground": "#303d45",
+		"editor.lineHighlightBackground": "#0e1119",
+		"editorCursor.foreground": "#f8f8f0",
+		"editorWhitespace.foreground": "#383c44"
+	},
+	"tokenColors": [
+		{
+			"settings": {
+				"foreground": "#abb2bfff",
+				"background": "#151820ff"
+			}
+		},
+		{
+			"name": "Comments (punctuation)",
+			"scope": "punctuation.definition.comment",
+			"settings": {
+				"foreground": "#1d2028",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Floats",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#629cf3ff",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Integers",
+			"scope": "constant.numeric.integer,constant.numeric.hex,constant.numeric.octal",
+			"settings": {
+				"foreground": "#629cf3ff",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Other constants",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#3f8bfdff",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "false",
+			"scope": "constant.language.boolean.false",
+			"settings": {
+				"foreground": "#3f8bfda0",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Operators (arithmetic)",
+			"scope": "keyword.operator.arithmetic",
+			"settings": {
+				"foreground": "#629cf3ff",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Operators (comparison)",
+			"scope": "keyword.operator.relational.js,keyword.operator.comparison",
+			"settings": {
+				"foreground": "#96f8acff"
+			}
+		},
+		{
+			"name": "Operators (logical)",
+			"scope": "keyword.operator.bitwise,keyword.operator.logical,keyword.operator.word",
+			"settings": {
+				"foreground": "#eef396ff"
+			}
+		},
+		{
+			"name": "Import keywords",
+			"scope": "keyword.control.import,punctuation.definition.keyword",
+			"settings": {
+				"foreground": "#fbffb8ff"
+			}
+		},
+		{
+			"name": "Flow Control keywords",
+			"scope": "keyword.control,keyword.control.conditional,keyword.other",
+			"settings": {
+				"foreground": "#fbffb8ff"
+			}
+		},
+		{
+			"name": "Variable type/scope",
+			"scope": "storage.modifier,storage.type.js",
+			"settings": {
+				"foreground": "#4491b6ff"
+			}
+		},
+		{
+			"name": "Assignment operator",
+			"scope": "keyword.operator.assignment",
+			"settings": {
+				"foreground": "#4491b6ff"
+			}
+		},
+		{
+			"name": "Function declaration",
+			"scope": "storage.type.function,storage.type.function.arrow,punctuation.definition.parameters.begin,punctuation.definition.parameters.end",
+			"settings": {
+				"foreground": "#25d4d1ff"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function,support.function.dom,support.function",
+			"settings": {
+				"foreground": "#c39ef6ff"
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": "support.class",
+			"settings": {
+				"foreground": "#c39ef6ff"
+			}
+		},
+		{
+			"name": "Function parameters",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#ffca7aff"
+			}
+		},
+		{
+			"name": "Import Alias",
+			"scope": "variable.other.readwrite.alias",
+			"settings": {
+				"foreground": "#ffca7aff"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": "variable.other.readwrite,variable.other.object,support.variable.dom,punctuation.accessor,variable.scss",
+			"settings": {
+				"foreground": "#ffca7aff"
+			}
+		},
+		{
+			"name": "Properties",
+			"scope": "variable.other.property,support.variable.property",
+			"settings": {
+				"foreground": "#ee982fff"
+			}
+		},
+		{
+			"name": "Strings (single-quote)",
+			"scope": "string.quoted.single,string.template",
+			"settings": {
+				"foreground": "#fe85bcff"
+			}
+		},
+		{
+			"name": "Strings (double-quote)",
+			"scope": "string.quoted.double",
+			"settings": {
+				"foreground": "#ff3d9bff"
+			}
+		},
+		{
+			"name": "this and module",
+			"scope": "variable.language.this,support.type.object.module",
+			"settings": {
+				"foreground": "#f2fd26ff"
+			}
+		},
+		{
+			"name": "Comments (type doc)",
+			"scope": "storage.type.class.jsdoc,entity.name.type.instance.jsdoc",
+			"settings": {
+				"foreground": "#96f8acff"
+			}
+		},
+		{
+			"name": "Comments (documentation)",
+			"scope": "comment.block.documentation",
+			"settings": {
+				"foreground": "#278a22ff"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#278a22a9",
+				"fontStyle": "italic"
+			}
+		},
+		{
+		}
+	]
+}

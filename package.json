@@ -1,0 +1,22 @@
+{
+    "name": "kafka-color-theme",
+    "displayName": "Kafka Color Theme",
+    "description": "My personal color theme. Dark background with purples, greens, oranges and yellows ranging from muted to vivid shades. This theme is only available in dark because dark themes please my pupils.",
+    "version": "0.0.1",
+    "publisher": "instantkafka",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Kafka",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Kafka-color-theme.json"
+            }
+        ]
+    }
+}
